@@ -19,7 +19,7 @@ A collection of scripts that automate simple yet repetitive and boring tasks.
 
 |文件|用途|补充|修改方法|安全程度|
 |----|-----|-----|-----|--------|
-|MoveMarkdownImages.bat|可将与自bat同目录下（不包含子目录）的所有.md文件中的图片复制到当前同名文件夹下，并对.md中路径进行更新。|日志保存在ImageBatLog中；已禁止在Desktop中运行；|替换+复制|较高|
+|MoveMarkdownImages.bat|可将同目录下（不包含子目录）的所有.md文件中的图片复制到当前同名文件夹下，并对.md中路径进行更新。|日志保存在ImageBatLog中；已禁止在Desktop中运行；|替换+复制|一般|
 |DeleteEmptyFolder.bat|可将同目录及**所有子目录**下的空文件夹删除，可用于调试失败后生成的空文件的批量删除|无日志；未加运行限制|**删除**|⚠️极低|
 |png2jpg.bat|将同目录及**所有子目录**下的图片由png转为jpg|无日志；无运行限制|替换|⚠️低|
 
