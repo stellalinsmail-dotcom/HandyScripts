@@ -1,2 +1,31 @@
 # HandyScripts
-A collection of scripts that automate simple yet repetitive and boring tasks.  收录了一些脚本，可用于解决简单而需要多次重复的无聊任务。
+A collection of scripts that automate simple yet repetitive and boring tasks.
+
+收录了一些脚本，可用于解决简单而需要多次重复的无聊任务。
+
+## File Introduction
+
+**使用前请认真阅读以下说明！！！千万不要在错误的路径下点开.bat文件！！！**
+
+>[!Caution]
+>**非常不建议**在桌面或者磁盘分区目录（如C:/D:/E:等）下运行.bat文件，因为可能删除关键文件，导致未知的应用程序错误，并且无法复原。
+>
+>**非常不建议**在管理员模式下运行.bat文件，增加不必要的权限同样会引起危险。
+
+>[!Warning]
+>目前在Win11系统下可以正常使用，其余操作系统可行性未知。
+>
+>虽然作者在发布之前会进行功能的验证，但仍然无法做出任何功能上的担保，仅保证编写过程中不含任何文不对题的主观恶意代码。
+
+|文件|用途|补充|修改方法|安全程度|
+|----|-----|-----|-----|--------|
+|MoveMarkdownImages.bat|可将与自bat同目录下（不包含子目录）的所有.md文件中的图片复制到当前同名文件夹下，并对.md中路径进行更新。|日志保存在ImageBatLog中；已禁止在Desktop中运行；|替换+复制|较高|
+|DeleteEmptyFolder.bat|可将同目录及**所有子目录**下的空文件夹删除，可用于调试失败后生成的空文件的批量删除|无日志；未加运行限制|**删除**|⚠️极低|
+|png2jpg.bat|将同目录及**所有子目录**下的图片由png转为jpg|无日志；无运行限制|替换|⚠️低|
+
+
+
+
+
+
+
